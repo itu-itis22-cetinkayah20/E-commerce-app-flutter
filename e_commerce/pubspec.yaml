@@ -1,0 +1,116 @@
+name: e_commerce
+description: "A new Flutter project."
+
+
+publish_to: 'none' 
+
+
+
+
+
+
+
+
+
+
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+
+
+
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+assets:
+  - assets/images/
+  - assets/icons/brands/
+  - assets/icons/categories/
+  - assets/fonts/coolvetica/
+  - assets/fonts/Poppins/
+  - assets/logos/
+  
+fonts:
+  - family: Coolvetica
+    fonts:
+      - asset: assets/fonts/coolvetica/coolvetica_regular.ttf
+      - asset: assets/fonts/coolvetica/coolvetica_regular_italic.ttf
+  - family: Poppins
+    fonts:
+      - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+      - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+      - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+      - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+      - asset: assets/fonts/Poppins/Poppins-Light.ttf
+      - asset: assets/fonts/Poppins/Poppins-Italic.ttf
+      - asset: assets/fonts/Poppins/Poppins-BoldItalic.ttf
+      - asset: assets/fonts/Poppins/Poppins-MediumItalic.ttf
+      - asset: assets/fonts/Poppins/Poppins-SemiBoldItalic.ttf
+      - asset: assets/fonts/Poppins/Poppins-LightItalic.ttf
+      
+      
+      
+        
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  
+  
+  
+  
+  flutter_lints: ^3.0.0
+
+
+
+
+
+flutter:
+
+  
+  
+  
+  uses-material-design: true
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
