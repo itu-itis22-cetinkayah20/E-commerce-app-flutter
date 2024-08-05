@@ -1,37 +1,36 @@
 name: e_commerce
 description: "A new Flutter project."
 
-
 publish_to: 'none' 
-
-
-
-
-
-
-
-
-
-
-
-
 
 version: 1.0.0+1
 
 environment:
   sdk: '>=3.4.3 <4.0.0'
 
-
-
-
-
-
-
+# -----------------PACKAGES-----------------
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.6
+  
 
+# Utility Packages
+  http: ^1.2.2
+  intl: ^0.19.0
+  logger: ^2.0.1
+  url_launcher: ^6.3.0
+
+  # Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+  # Splash Screen
+  flutter_native_splash: ^2.4.1
+  
 assets:
   - assets/images/
   - assets/icons/brands/
@@ -57,9 +56,6 @@ fonts:
       - asset: assets/fonts/Poppins/Poppins-MediumItalic.ttf
       - asset: assets/fonts/Poppins/Poppins-SemiBoldItalic.ttf
       - asset: assets/fonts/Poppins/Poppins-LightItalic.ttf
-      
-      
-      
         
 
 dev_dependencies:
@@ -67,21 +63,10 @@ dev_dependencies:
     sdk: flutter
 
   
-  
-  
-  
-  
-  flutter_lints: ^3.0.0
-
-
-
-
+  flutter_lints: ^4.0.0
 
 flutter:
 
-  
-  
-  
   uses-material-design: true
 
   
