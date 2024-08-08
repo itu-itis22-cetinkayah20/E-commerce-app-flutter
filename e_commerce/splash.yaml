@@ -3,11 +3,17 @@ flutter_native_splash:
   color_dark: "#272727"
   image: assets\logos\purcom.png
   image_dark: assets\logos\purcom_dark.png
+  # fit: BoxFit.contain
+  # alignment: Alignment.center
 
   android_12: 
     color: "#FFFFFF"
     color_dark: "#272727"
     image: assets\logos\purcom.png
     image_dark: assets\logos\purcom_dark.png
-
+    # fit: BoxFit.contain
+    # alignment: Alignment.center
+ 
   web: false
+ # Şöyle ki logonun kenarları çıkmıyor ve yuvarlak gözüküyor. Bunun sebebi logonun arka planı gibi başka compenentlerini hesaba katmadın.
+ # Simge resmin 3'te 2 sini kaplamalı. yani png dosyası 300 dpi size'ında ise logo 200 dpi'ında tamamen gözükmelidir.
