@@ -1,3 +1,4 @@
+import 'package:e_commerce/features/shop/screens/home.dart';
 import 'package:e_commerce/utils/constants/colors.dart';
 import 'package:e_commerce/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
@@ -52,7 +53,7 @@ class NavigationController extends GetxController {
       0.obs; // Navigation menu stateless olduğu için obs kullandık.
 
   final screens = [
-    Container(color: Colors.red),
+    const HomeScreen(),
     Container(color: Colors.green),
     Container(color: Colors.blue),
     Container(color: Colors.yellow),
