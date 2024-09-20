@@ -1,8 +1,6 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:e_commerce/common/widgets/custom_shapes/containers/custom_circular_container.dart';
 import 'package:flutter/material.dart';
-import 'package:e_commerce/utils/constants/colors.dart';
 import '../../../common/widgets/custom_shapes/containers/primary_header_container.dart';
+import 'home/widget/home_appbar.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -14,13 +12,17 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           children: [
             PrimaryHeaderContainer(
-              child: Column( //Column değil de Container yaparsak childrenlar eklenmeden mevcut designı görebiliriz. 
+              child: Column(
+                //Column değil de Container yaparsak childrenlar eklenmeden mevcut designı görebiliriz.
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-
+                  HomeAppBar(),
                 ],
               ),
             ),
           ],
+          
+
         ),
       ),
     );
@@ -29,7 +31,3 @@ class HomeScreen extends StatelessWidget {
 
 
 
-
-
-// print("Size W is ${MediaQuery.of(context).size.width}");
-// print("Size H is ${MediaQuery.of(context).size.height}");
